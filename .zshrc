@@ -75,6 +75,7 @@ plugins=(
 	git
 	zsh-autosuggestions
 	copydir
+	zsh-syntax-highlighting
 )
 	
 source $ZSH/oh-my-zsh.sh
