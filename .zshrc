@@ -74,6 +74,7 @@ ZSH_THEME="crcandy"
 plugins=(
 	git
 	zsh-autosuggestions
+	copydir
 )
 	
 source $ZSH/oh-my-zsh.sh
