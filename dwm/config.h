@@ -18,11 +18,12 @@ static const char col_cyan[]        = "#005577";
 static const char col_purple[]      = "#bd93f9";
 static const char col_background[]  = "#282a36";
 static const char col_current_line[]= "#44475a";
+static const char col_comment[]     = "#6272a4";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_current_line },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_purple  },
+	[SchemeSel]  = { col_gray4, col_cyan,  col_comment  },
 };
 
 /* tagging */
