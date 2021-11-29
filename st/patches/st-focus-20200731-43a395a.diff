@@ -4,17 +4,17 @@ Date: Fri, 31 Jul 2020 10:13:35 +0200
 Subject: [PATCH] patch: focus
 
 ---
- config.def.h |  5 ++++
+ config.h |  5 ++++
  config.mk    |  2 +-
  st.c         |  1 -
  st.h         |  2 ++
  x.c          | 72 +++++++++++++++++++++++++++++++++++++++-------------
  5 files changed, 62 insertions(+), 20 deletions(-)
 
-diff --git a/config.def.h b/config.def.h
+diff --git a/config.h b/config.h
 index 0895a1f..577d1f1 100644
---- a/config.def.h
-+++ b/config.def.h
+--- a/config.h
++++ b/config.h
 @@ -84,6 +84,9 @@ char *termname = "st-256color";
   */
  unsigned int tabspaces = 8;
