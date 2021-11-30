@@ -3,6 +3,10 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/vallezw/.oh-my-zsh"
+# Doom Emacs 
+export PATH="$HOME/.emacs.d/bin:$PATH"
+# Rust Bins
+export PATH="$HOME/.cargo/bin:$PATH"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
