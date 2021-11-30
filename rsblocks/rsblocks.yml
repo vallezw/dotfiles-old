@@ -7,7 +7,7 @@ seperator: '┃'
 # Time always running, no enabled option for this  
 time:
   delay: 1.0
-  format: '%d %b, %I:%M:%S %p'
+  format: '%d %b, %H:%M:%S'
   icon: ''
 
 
@@ -37,20 +37,20 @@ pub_ip:
 local_ip:
   icon: ''
   enabled: true
-  interface: 'wlo1' #network interface required for now..
+  interface: 'wlp4s0' #network interface required for now..
   delay: 120.0
   
 # ethernet/wifi bandwith (no delay for this since it will calculate the bandwith every second)
 netspeed:
   enabled: false
-  interface: 'wlan0'
+  interface: 'wlp4s0'
   recieve_icon: ''
   transmit_icon: ''
   
   
 memory:
   delay: 2.0
-  enabled: true
+  enabled: false
   icon: '▦'
 
   
@@ -62,7 +62,7 @@ disk:
   
 battery:
   delay: 120.0
-  enabled: false
+  enabled: true
   icon: ''
   
 
@@ -118,7 +118,7 @@ spotify:
 weather:
   city: ''        
   delay: 7200.0   # 7200 seconds = 2 hours
-  enabled: false
+  enabled: true
   format: '%l:+%t'
   icon: ''
 
