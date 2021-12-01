@@ -105,7 +105,7 @@ volume:
 
 spotify:
   delay: 0.5
-  enabled: false
+  enabled: true
   icon: ''  
 
   
@@ -118,7 +118,7 @@ spotify:
 weather:
   city: ''        
   delay: 7200.0   # 7200 seconds = 2 hours
-  enabled: true
+  enabled: false
   format: '%l:+%t'
   icon: ''
 
