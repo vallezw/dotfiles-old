@@ -21,6 +21,9 @@ alias lg='lazygit'
 
 ZSH_THEME="crcandy"
 
+# GPG Key
+if [ -r ~/.zshrc ]; then echo 'export GPG_TTY=$(tty)' >> ~/.zshrc; \
+  else echo 'export GPG_TTY=$(tty)' >> ~/.zprofile; fi
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -118,3 +121,5 @@ source $ZSH/oh-my-zsh.sh
 #
 
 
+export GPG_TTY=$(tty)
+export GPG_TTY=$(tty)
