@@ -7,7 +7,13 @@ export ZSH="/home/vallezw/.oh-my-zsh"
 export PATH="$HOME/.emacs.d/bin:$PATH"
 # Rust Bins
 export PATH="$HOME/.cargo/bin:$PATH"
+# Go Bins
+export PATH="$HOME/go/bin:$PATH"
+# App Images
+export PATH="$HOME/AppImages:$PATH"
 
+# Alias For Lazygit
+alias lg='lazygit'
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
